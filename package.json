@@ -2,11 +2,17 @@
   "name": "java-tester",
   "version": "1.0.0",
   "description": "tests java file",
-  "main": "index.js",
+  "main": "bin/index.js",
   "type": "module",
-  "scripts": {
-    "start": "node index.js"
+  "bin": {  
+    "jtest": "./bin/index.js"  
   },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
   "author": "Matheus",
   "license": "ISC",
   "dependencies": {
