@@ -1,0 +1,21 @@
+{
+    "program": "Cool.java",
+    "author": "Csongor Mezo",
+    "tests": [
+        {
+            "motivation": "test 1",
+            "input": "apple is good",
+            "expected": "apple is good"
+        },
+        {
+            "motivation": "test 2",
+            "input": "apple is bad",
+            "expected": "apple is bad"
+        },
+        {
+            "motivation": "test 3",
+            "input": "test 2 is not false",
+            "expected": "test 2 is false"
+        }
+    ]
+}
