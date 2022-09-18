@@ -1,0 +1,17 @@
+{
+  "name": "java-tester",
+  "version": "1.0.0",
+  "description": "tests java file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Matheus",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.1.1",
+    "nanospinner": "^1.1.0"
+  }
+}
